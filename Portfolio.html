@@ -8,7 +8,7 @@
 
   <link rel="icon" href="./assets/images/smiley.png" type="image/png" sizes="16x16">
 
-  <title>Bootstrap4 About - Gary Cender </title>
+  <title>Bootstrap4 Portfolio - Gary Cender </title>
 
   <!-- Bootstrap CDN -->
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
@@ -51,13 +51,13 @@
         <!-- <div class=" collapse navbar-collapse " id="navbarNav "> -->
 
         <ul class="navbar-nav ">
-          <li class="nav-item active ">
-            <a class="nav-link " href="./index.html ">About
-              <span class="sr-only ">(current)</span>
+          <li class="nav-item ">
+            <a class="nav-link " href="./index.html">About
             </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link " href="./Portfolio.html ">Portfolio</a>
+          <li class="nav-item active ">
+            <a class="nav-link " href="./Portfolio.html">Portfolio</a>
+            <span class="sr-only ">(current)</span>
           </li>
           <li class="nav-item ">
             <a class="nav-link " href="./Contact.html ">Contact</a>
@@ -84,23 +84,52 @@
     <div class="col-sm-8 thin-border ">
       <div class="card ">
         <div class="card-body ">
-          <h3 class="card-title text-info ">About</h3>
+          <h3 class="card-title text-info ">Portfolio</h3>
           <hr class="my-4">
           <!-- <p class="card-text ">With supporting text below as a natural lead-in to additional content.</p> -->
           <!-- <a href="# " class="btn btn-primary ">Go somewhere</a> -->
-          <img class="float-left mr-3" src="./assets/images/HelloWorld.png " alt="Smiley face " height=200 width=200 />
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="work">
+                <img class "size" src="./assets/images/cactus-smell.png" alt="smelling cactus">
+                <h6 class="bg-info text-white">Is Boot Camp a good idea?</h6>
+              </div>
+            </div>
 
+            <div class="col-sm-6">
+              <div class="work">
+                <img class "size" src="./assets/images/baby-code.png" alt="crying baby">
+                <h6 class="bg-info text-white">Coding is fustrating</h6>
+              </div>
+            </div>
+          </div>
 
-          <p class="card-text ">As soon as I stop feeling like a mellon head and figure out who I am, I will update my profile.</p>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a hendrerit ex, at blandit sapien. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit.</p>
-          <p class="card-text">Nulla tempor ornare diam, vitae volutpat erat bibendum eget. Nunc sagittis placerat velit sit amet interdum. Nam
-            in iaculis purus, quis tristique velit. Cras ut nisl vitae orci malesuada placerat non sed magna. Nulla ultrices,
-            dolor at aliquam volutpat, lorem magna pharetra arcu, eget feugiat nisi libero at nunc. Phasellus finibus elit
-            at sapien vehicula varius. Maecenas in dapibus leo. Aliquam molestie vulputate metus. Morbi sed posuere quam,
-            et sodales felis. Proin augue nulla, pellentesque at venenatis vel, sagittis eget nibh. Maecenas libero velit,
-            luctus eu velit vitae, eleifend convallis felis.
-          </p>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="work">
+                <img class "size" src="./assets/images/swim-to-fly.png" alt="Swiming to flying">
+
+                <h6 class="bg-info text-white">Sinking wishing I could fly</h6>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="work">
+                <img class "size" src="./assets/images/surf-n-code.png" alt="Rutgers Info Widget">
+
+                <h6 class="bg-info text-white">Finally above water</h6>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="work">
+                <img class="size" src="./assets/images/fish-hand.png" alt="Fish hand shake">
+
+                <h6 class="bg-info text-white">Might get a (good?) job</h6>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -114,16 +143,16 @@
           <div class="justify-content-center">
             <p class="text-center">
 
-            <a class="contact-link" href="https://github.com/ ">
-              <img class="contact-icon" src="./assets/images/github.png" alt="giticon " height=40 width=40 />
-            </a>
-            <a class="contact-link" href="https://www.linkedin.com/in/gary-cender-04b3885/ ">
-              <img class="contact-icon" src="./assets/images/linkedin-icon.png" alt="linkedIn" height=40 width=40 />
-            </a>
-            <a class="contact-link" href="https://stackoverflow.com/">
-              <img class="contact-icon" src="./assets/images/stackoverflow-icon.png" alt="Stack Over Flow " height=40 width=40 />
-            </a>
-          </p>
+              <a class="contact-link" href="https://github.com/ ">
+                <img class="contact-icon" src="./assets/images/github.png" alt="giticon " height=40 width=40 />
+              </a>
+              <a class="contact-link" href="https://www.linkedin.com/in/gary-cender-04b3885/ ">
+                <img class="contact-icon" src="./assets/images/linkedin-icon.png" alt="linkedIn" height=40 width=40 />
+              </a>
+              <a class="contact-link" href="https://stackoverflow.com/">
+                <img class="contact-icon" src="./assets/images/stackoverflow-icon.png" alt="Stack Over Flow " height=40 width=40 />
+              </a>
+            </p>
           </div>
         </div>
       </div>
@@ -134,29 +163,22 @@
     .
   </div>
 
-  <!-- <div class="jumbotron jumbotron-fluid"> -->
-  <!-- <div class="container bg.dark text-align-centered"> -->
-  <!-- <div class="container-fluid"> -->
 
-  <!-- <h1 class="display-4">Fluid jumbotron</h1> -->
-  <!-- <small class="bg.dark text-align-centered">&copy; copyright Gary Cender</small> -->
-  <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
-  <!-- </div> -->
-  <!-- </div> -->
-
-  <div class="row bg.dark">
-    <div class="col-sm-12" style=" background-color:#666" > 
-        <!-- <div class="container-fluid alert alert-dark "> -->
-            <div class="container-fluid   " style=" background-color:#666">
-                <p class="text-center text-white ">
-            <small class=".text-center ">&copy; copyright Gary Cender</small>
+  <div class="row">
+    <!-- <div class="row bg.dark"> -->
+    <!-- <div class="col-sm-12  " style=" background-color:#666"> -->
+    <div class="col-sm-12 border border-top-5 border-info " style=" background-color:#666">
+      <!-- <div class="container-fluid alert alert-dark "> -->
+      <div class="container-fluid   " style=" background-color:#666">
+        <p class="text-center text-white ">
+          <small class=".text-center ">&copy; copyright Gary Cender</small>
         </p>
       </div>
-      </div>
-      </div>
+    </div>
+  </div>
 
 
-  
+
 
   <!-- jQuery CDN -->
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js "></script> -->
